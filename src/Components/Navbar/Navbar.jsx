@@ -8,6 +8,7 @@ const Navbar = () => {
     
 
   return (
+    <div className="page-content">
     <div className="nav-container">
       <nav className="navbar">
         <div className="nav-background">
@@ -24,6 +25,7 @@ const Navbar = () => {
           </ul>
         </div>
       </nav>
+    </div>
     </div>
   );
 };

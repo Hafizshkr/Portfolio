@@ -1,8 +1,8 @@
-import reactLogo from '../../assets/react.png'
-import laravelLogo from '../../assets/laravel.png'
-import MongoDBlogo from '../../assets/MongoDB.png'
-import ExpressLogo from '../../assets/expressJS.png'
-import NodejsLogo from '../../assets/Nodejs.png'
+import reactimg from '../../assets/reactimg.png'
+import laravelimg from '../../assets/laravel.png'
+import MongoDBimg from '../../assets/MongoDB.png'
+import Expressimg from '../../assets/expressJS.png'
+import Nodejsimg from '../../assets/Nodejs.png'
 
 
 
@@ -38,53 +38,6 @@ const INFO = {
         description: "Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
     },
 
-    projects:  [
-        {
-            title: "Project 1",
-            description: 
-                "Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-            logo: 'https://cdn.jsdelivr.net/npm/programming-languages-logos/src/html/html.png', 
-            linkText: "Source",
-            lnk: "https://github.com" , 
-        },
-
-        {
-            title: "Project 2",
-            description: 
-                "Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-            logo: 'https://cdn.jsdelivr.net/npm/programming-languages-logos/src/html/html.png', 
-            link: "Source",
-            Source: "https://github.com" , 
-        },
-
-        {
-            title: "Project 3",
-            description: 
-                "Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-            logo: 'https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png', 
-            linkText: "Source",
-            Source: "https://github.com" , 
-        },
-
-        {
-            title: "Project 4",
-            description: 
-                "Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-            logo: 'https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png', 
-            linkText: "Source",
-            Source: "https://github.com" , 
-        },
-    ],
-
-    stacksData: [
-        
-        { name: 'React', logo: reactLogo},
-        { name: 'Nodejs', logo:  NodejsLogo},
-        { name: 'MongoDB', logo: MongoDBlogo },
-        { name: 'ExpressJs', logo: ExpressLogo},
-        { name: 'Laravel', logo: laravelLogo},
-
-    ]
 }
 
 
