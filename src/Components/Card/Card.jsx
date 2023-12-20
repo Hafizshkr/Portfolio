@@ -8,20 +8,20 @@ import "./Card.css";
 const Card = (props) => {
   return (
     <>
-        {props.details.map((value)=> (
-            <div className="container" key={value.id}>
-            <div className="card-container">
+      {props.details.map((value) => (
+        
+          <div className="container" key={value.id}>
+            <div className="card-container">  
               <div className="title-project">{value.title}</div>
-    
+
               <div className="stacks">
-              <FontAwesomeIcon icon={faJs} />
-              <FontAwesomeIcon icon={faReact} />
-              <FontAwesomeIcon icon={faNode} />
+                <FontAwesomeIcon icon={faJs} />
+                <FontAwesomeIcon icon={faReact} />
+                <FontAwesomeIcon icon={faNode} />
+              
               </div>
               <div className="text-container">
-                <p className="project-description">
-                  {value.description}
-                </p>
+                <p className="project-description">{value.description}</p>
               </div>
               <div className="bottom-wrapper">
                 <div className="icons">
@@ -35,10 +35,9 @@ const Card = (props) => {
                 <div className="tags">{value.tags}</div>
               </div>
             </div>
-            
           </div>
-        ))}
-      
+        
+      ))}
     </>
   );
 };

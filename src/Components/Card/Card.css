@@ -1,30 +1,37 @@
 @import "../../index.css";
 
-.container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: auto; 
-    
-}
 
+.container {
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-inline-start: 50px;
+    margin-left: 90px;
+    padding-bottom: 200px;
+    
+  }
+
+  
 .card-container {
-    width: 300px;
-    height: 350px;
+    width: 330px;
+    height: 440px;
     display: grid;
     justify-content: center;
     align-items: center;
-    margin: 0;
     border: none;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     border-radius: 8px;
     background-color: #f1f1f1;
     margin-left: 15px;
+    overflow: hidden;
+    
+    
 }
 
 .card-container:hover {
     background: #ffffff;
     transition: 0.3s ease-in-out;
+    border: none;
     
 }
 
@@ -33,11 +40,13 @@
     font-weight: 600;
     padding-left: 20px;
     padding-top: 10px;
+    padding-bottom: 20px;
+    padding-right: 15px;
 }
 
 .stacks {
     color: var(--link-color);
-    font-size: 20px;
+    font-size: 30px;
     padding-left: 20px;
   }
   
@@ -97,6 +106,25 @@
         justify-content: center;
         align-items: center;
         width: auto;
+        margin-left: 5px;
+        margin-bottom: 10px;
+    }
+
+    .project-description {
+        display: flex;
+        padding: 25px;
+        margin-left: 0;
+    
+    }
+    .card-container {
+        margin-left: 0;
     }
     
+    .title-project {
+        font-size: 20px;
+    }
+    .stacks {
+        font-size: 30px;
+        padding-bottom: 0px;
+    }
 }

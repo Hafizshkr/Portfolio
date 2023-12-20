@@ -1,10 +1,11 @@
 import Card from '../../../Components/Card/Card'
+import CardData from '../../../Components/Data/CardData'
 
 const ProjectSection = () => {
     return(
         <>
         
-        <Card/>
+        <Card details={CardData.projects}/>
         
         
 

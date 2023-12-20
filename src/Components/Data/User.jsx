@@ -1,9 +1,3 @@
-import reactimg from '../../assets/reactimg.png'
-import laravelimg from '../../assets/laravel.png'
-import MongoDBimg from '../../assets/MongoDB.png'
-import Expressimg from '../../assets/expressJS.png'
-import Nodejsimg from '../../assets/Nodejs.png'
-
 
 
 const INFO = {
