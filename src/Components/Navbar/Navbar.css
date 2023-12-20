@@ -71,7 +71,7 @@ nav a:hover {
 
     .nav-background {
         width: 90%;
-        height: 30px; /* Adjust the height for smaller screens */
+        height: 30px; 
         padding-right: 15px;
         padding-bottom: 15spx;
     }

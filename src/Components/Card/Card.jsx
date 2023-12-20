@@ -25,10 +25,10 @@ const Card = (props) => {
               </div>
               <div className="bottom-wrapper">
                 <div className="icons">
-                  <a className="link" href={value.link}>
+                  <a className="link" href={value.link} target="_blank">
                     <FontAwesomeIcon icon={faLink} />
                   </a>
-                  <a className="github" href={value.source}>
+                  <a className="github" href={value.source} target="_blank">
                     <FontAwesomeIcon icon={faGithub} />
                   </a>
                 </div>
