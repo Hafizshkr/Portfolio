@@ -1,5 +1,5 @@
 import ForProjectsPage from "./ProjectSectionPage/ForProjectsPage";
-import "../Projects/Projects.css";
+
 
 const Projects = () => {
   return (
