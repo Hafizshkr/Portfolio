@@ -8,10 +8,6 @@ This is the wireframe for the website.  Stacks will be used in this website are 
 
 ![Portfolio wireframe](https://github.com/Hafizshkr/Portfolio/assets/103745630/2fcbc71b-ed7b-4cc1-8d96-e9b7ee385bdf)
 
-## Demo
-
-https://hafizshukor.netlify.app/
-
 
 #### Why use React and Tailwind?
 
@@ -20,6 +16,10 @@ https://hafizshukor.netlify.app/
 #### Why use Vite?
 
 I chose Vite over create-react-app(CRA) due to its significantly faster performance. While CRA automatically installs all dependencies, Vite allows for manual installation of only required dependencies. This leads to a faster installation process. As it avoids installing unnecessary dependencies and takes up less space.
+
+## Demo
+
+https://hafizshukor.netlify.app/
 
 
 ## Installation
