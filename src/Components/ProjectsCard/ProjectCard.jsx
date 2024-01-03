@@ -13,7 +13,7 @@ const ProjectCard = (props) => {
           <div className=" xl:w-[36%]  lg:w-[50%] md:w-[50%] sm:w-[70%] ">
             <img src={value.img} alt="" />
           </div>
-          <div className=" bg-[#ffffff] rounded-sm  p-5  xl:w-[20%] lg:w-[50%] md:w-[50%] sm:w-[70%]">
+          <div className=" bg-[#ffffff] shadow-md rounded-md  p-5  xl:w-[20%] lg:w-[50%] md:w-[50%] sm:w-[70%]">
             <div className="card">
               <div className="title-project sm:text-md  ">{value.title}</div>
               <div className="stacks sm:text-md">
