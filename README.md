@@ -8,6 +8,9 @@ This is the wireframe for the website.  Stacks will be used in this website are 
 
 ![Portfolio wireframe](https://github.com/Hafizshkr/Portfolio/assets/103745630/2fcbc71b-ed7b-4cc1-8d96-e9b7ee385bdf)
 
+## Demo
+
+https://hafizshukor.netlify.app/
 
 
 #### Why use React and Tailwind?
