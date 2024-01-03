@@ -13,7 +13,9 @@ const Home = () => {
     
         <Hero/>
         <About/>
+        <div className="flex flex-wrap justify-center pb-10  ">
         <ProjectSection/>
+        </div>
         
                 
 

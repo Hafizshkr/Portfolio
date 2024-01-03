@@ -55,28 +55,3 @@ nav a:hover {
     transition: color 0.3s ease-in-out;
 }
 
-@media (max-width: 600px) {
-    .navbar {
-        margin-left: auto;
-        margin-right: auto;
-        width: 90%;
-        font-size: 80%;
-    }
-
-    .nav-list {
-        margin-left: auto;
-        margin-right: auto;
-    
-    }
-
-    .nav-background {
-        width: 90%;
-        height: 30px; 
-        padding-right: 15px;
-        padding-bottom: 15spx;
-    }
-
-    .nav-list {
-        padding-right: 15px;
-    }
-}

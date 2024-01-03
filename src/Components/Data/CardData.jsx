@@ -1,8 +1,15 @@
+import cardscolumn from "../../assets/cards-column.jpg"
+import news from "../../assets/Newsllter.jpg"
+import pass from "../../assets/PasswordGenerator.jpg"
+
+
+
+
 const CardData = {
     "projects":  [
         
         {   
-            "id": 2,
+            "id": 1,
             "title": "Password Generator",
             "description": 
             "I am learning how to use JavaScript to mix the alphabet and generate a password, along with a copy function.",
@@ -10,11 +17,12 @@ const CardData = {
             "link": "https://password-generator-eight-livid.vercel.app/",
             "source": "https://github.com/Hafizshkr/passwordGenerator" , 
             "stacks": ["HTML", "CSS" ,"Javascript"],
-            "tags": "Challenge"
+            "tags": "Challenge",
+            "img": pass,
         },
         
         {
-            "id": 1,
+            "id": 2,
             "title": "Newsletter Signup ",
             "description": 
                 "This is a solution to the Newsletter sign-up form with success message challenge on Frontend Mentor. Frontend Mentor challenges help you improve your coding skills by building realistic projects.",
@@ -23,6 +31,8 @@ const CardData = {
             "source": "https://github.com/Hafizshkr/newsletter-sign-up-with-success-message" , 
             "stacks": ["HTML", "CSS" ,"Javascript"],
             "tags": "Challenge",
+            "img": news,
+            
         },
         {   
             "id": 3,
@@ -33,7 +43,8 @@ const CardData = {
             "link": "https://3-column-preview-card-component-theta-dusky.vercel.app/",
             "source": "https://github.com/Hafizshkr/3-column-preview-card-component" , 
             "stacks": ["HTML", "CSS" ],
-            "tags": "Challenge"
+            "tags": "Challenge",
+            "img": cardscolumn,
         },
     
         {   

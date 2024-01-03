@@ -10,8 +10,8 @@ const Card = (props) => {
     <>
       {props.details.map((value) => (
         
-          <div className="container" key={value.id}>
-            <div className="card-container">  
+          <div className="pt-3 " key={value.id}>
+            <div className="card-container ">  
               <div className="title-project">{value.title}</div>
 
               <div className="stacks">
@@ -35,7 +35,10 @@ const Card = (props) => {
                 <div className="tags">{value.tags}</div>
               </div>
             </div>
-          </div>
+            </div>
+            
+
+         
         
       ))}
     </>
